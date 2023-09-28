@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [http://64.227.176.178:3000](http://64.227.176.178:3000)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [http://64.227.176.178](http://64.227.176.178)
 
 ## Available Scripts
 
