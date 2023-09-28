@@ -43,7 +43,7 @@ function App() {
       <Alert alert={alert} />
       <div className="container my-5">
         <Outlet>
-          <TextForm ShowAlert={ShowAlert}/>
+          <TextForm/>
           <About />
         </Outlet>
       </div>
