@@ -1,0 +1,34 @@
+import React from 'react'
+
+export default function About() {
+  return (
+    <>
+      <div class="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Want to know Me ?
+            </button>
+          </h2>
+          <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div className="accordion-body my-3">
+              <strong>TextUtils</strong> is a user-friendly web application created using React, designed to assist users in analyzing and manipulating text. Whether you're a writer, student, or professional, TextUtils provides valuable assistance in understanding and dissecting textual content. The application features an intuitive and user-friendly interface, making it accessible to users of all levels of expertise. Its clean design ensures that users can effortlessly navigate and utilize its features.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Features
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>TextUtils</strong> enables users to manipulate text easily. It offers functions for formatting, converting, and transforming text to meet various requirements. Users can change letter cases, remove whitespace, and more with just a few clicks.  For content creators and writers, TextUtils provides a character and word count feature. This assists in meeting specific word limits or character constraints for documents, articles, or assignments.
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
