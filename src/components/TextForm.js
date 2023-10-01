@@ -40,6 +40,10 @@ export default function TextForm(props) {
         msg.text = text;
         window.speechSynthesis.speak(msg);
         const toogle = document.getElementById('toggle')
+        msg.onend = function(event) {
+            toogle.innerHTML = "Speak"; 
+        };
+    
         if (toogle.textContent === "Speak") {
             toogle.innerHTML = "Stop"
         }
