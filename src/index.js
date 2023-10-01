@@ -5,29 +5,39 @@ import About from './components/About';
 import TextForm from './components/TextForm';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createRoutesFromElements,Route } from 'react-router-dom';
+// Routing Method 1
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "",
-        element: <TextForm />
-      },
-      {
-        path: "about",
-        element: <About />
-      }
-    ]
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//     children: [
+//       {
+//         path: "",
+//         element: <TextForm />
+//       },
+//       {
+//         path: "about",
+//         element: <About />
+//       }
+//     ]
+//   },
+// ]);
+
+// Routing Method 2
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<App />}>
+      <Route path='' element={<TextForm />} />
+      <Route path='about' element={<About />} />
+    </Route>
+  )
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
 );

@@ -19,14 +19,6 @@ export default function Navbar(props) {
                             <Link className="nav-link" to="/about">{props.aboutText}</Link>
                         </li>
                     </ul>
-                    <div className="form-check form-switch mx-5 dropdown" >
-                        <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" data-bs-toggle="dropdown" />
-                        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Custome Mode</label>
-                        <ul className="dropdown-menu">
-                            <input type="color" Style="" className='mx-2' id="colorpicker" value="#0000ff"/>
-                            <input type="color" Style="" className='mx-2' id="colorpicker" value="#ff0000"/>
-                        </ul>
-                    </div>
                     <div className={`form-check form-switch text-${props.modetext}`}>
                         <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                         <label className="form-check-label mx-2" htmlFor="flexSwitchCheckDefault">Enable {props.modetext} mode</label>
