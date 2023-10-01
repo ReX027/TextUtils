@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [http://64.227.176.178](http://64.227.176.178)
 
+# Note Important !!
+
+In this project, for now copy text button won't work as Clipboard API is only available in secure contexts (HTTPS). Though I have code available in [TextForm.js](https://github.com/ReX027/TextUtils/blob/master/src/components/TextForm.js) and It will work in your local machine but not after deployment.
+
 ## Available Scripts
 
 In the project directory, you can run:
