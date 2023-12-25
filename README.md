@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In this project, I have used [Vercel](https://vercel.com/) for deployment.
 
+Steps for deployment on Vercel:
+
+1. Create your vercel account.
+2. Push your code in your Github
+3. Link your Github account to Vercel
+4. Import your repsoitory in your vercel account.
+5. Now, Just choose Create React App framework in vercel and enjoy it's deployed!!
+
 ## Available Scripts
 
 In the project directory, you can run:
