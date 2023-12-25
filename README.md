@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Note Important !!
 
-In this project, I have used [Vercel][https://vercel.com/] for deployment.
+In this project, I have used [Vercel](https://vercel.com/) for deployment.
 
 ## Available Scripts
 
