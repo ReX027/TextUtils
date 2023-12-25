@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [http://64.227.176.178](http://64.227.176.178)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [Text-Utils](https://text-utils-jade.vercel.app/)
 
 # Note Important !!
 
-In this project, for now copy text button won't work as Clipboard API is only available in secure contexts (HTTPS). Though I have code available in [TextForm.js](https://github.com/ReX027/TextUtils/blob/master/src/components/TextForm.js) and It will work in your local machine but not after deployment.
+In this project, I have used [Vercel][https://vercel.com/] for deployment.
 
 ## Available Scripts
 
