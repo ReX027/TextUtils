@@ -1,3 +1,7 @@
+# About My Project
+
+TextUtils is a user-friendly web application created using React, designed to assist users in analyzing and manipulating text. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit my website at [Text-Utils](https://text-utils-jade.vercel.app/)
